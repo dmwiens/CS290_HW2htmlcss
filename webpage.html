@@ -6,60 +6,156 @@
 		<link rel="stylesheet" href="stylesheet.css" type="text/css">
 	</head>
 	<body>
-		<table>
-			<caption>Continents of the World</caption>
-			<thead>
-				<tr>
-					<th> </th>		<!--fixme probably a better way to do this-->
-					<th>Area [sq km]</th>
-					<th>Population</th>
-					<th>Number of Countries</th>
-					<th>Largest Country (by area)</th>
-					<th>Largest Country (by pop.)</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<th>Asia</th>
-					<td>44579000</td>
-					<td>4462676731</td>
-					<td>48</td>
-					<td>Russia</td>
-					<td>China</td>
-				</tr>
-				<tr>
-					<th>Africa</th>
-					<td>30370000</td>
-					<td>1225080510</td>
-					<td>54</td>
-					<td>Algeria</td>
-					<td>Nigeria</td>
-				</tr>
-				<tr>
-					<th>N. America</th>
-					<td>24709000</td>
-					<td>565265000</td>
-					<td>23</td>
-					<td>Canada</td>
-					<td>USA</td>
-				</tr>
-				<tr>
-					<th>S. America</th>
-					<td>17840000</td>
-					<td>420458044</td>
-					<td>12</td>
-					<td>Brazil</td>
-					<td>Brazil</td>
-				</tr>
-				<tr>
-					<th>Europe</th>
-					<td>10180000</td>
-					<td>741447158</td>
-					<td>50</td>
-					<td>Ukraine</td>
-					<td>Germany</td>
-				</tr>
-			</tbody>
-		</table>
+		<section class="Part1">
+			<table id="Continents table">
+					<caption>Continents of the World</caption>
+					<thead>
+						<tr>
+							<th></th>
+							<th>Area [sq km]</th>
+							<th>Population</th>
+							<th>Number of Countries</th>
+							<th>Largest Country (by area)</th>
+							<th>Largest Country (by pop.)</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th>Asia</th>
+							<td>44579000</td>
+							<td>4462676731</td>
+							<td>48</td>
+							<td>Russia</td>
+							<td>China</td>
+						</tr>
+						<tr>
+							<th>Africa</th>
+							<td>30370000</td>
+							<td>1225080510</td>
+							<td>54</td>
+							<td>Algeria</td>
+							<td>Nigeria</td>
+						</tr>
+						<tr>
+							<th>N. America</th>
+							<td>24709000</td>
+							<td>565265000</td>
+							<td>23</td>
+							<td>Canada</td>
+							<td>USA</td>
+						</tr>
+						<tr>
+							<th>S. America</th>
+							<td>17840000</td>
+							<td>420458044</td>
+							<td>12</td>
+							<td>Brazil</td>
+							<td>Brazil</td>
+						</tr>
+						<tr>
+							<th>Europe</th>
+							<td>10180000</td>
+							<td>741447158</td>
+							<td>50</td>
+							<td>Ukraine</td>
+							<td>Germany</td>
+						</tr>
+						<tr>
+							<td colspan="2">Footer1</td>
+							<td colspan="2">Footer2: all data collected from Wikipedia.org</td>
+						</tr>
+					</tbody>
+				</table>
+		</section>
+		
+		<section class="Part2">
+			<ul id="Species List">
+				<li>Allium sativum</li>
+				<li>Allium cepa</li>
+				<li>Allium unifolium</li>
+				<li>Allium porrum</li>
+			</ul>
+		</section>
+
+		<section class="part3">
+			<div class="outer-content">
+				<div class="inner-content">
+					The Convent contingent was content to vent in the ComicCon tent.
+				</div>
+			</div>
+		</section>
+
+		<section class="part4">
+			<form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+				<fieldset>
+					<legend>GET form</legend>
+					<label>Text here: 
+						<input type="text" name="text_input">
+					</label>
+					<br />
+					<label>Number here: 
+						<input type="number" name="number_input">
+					</label>
+					<br />
+					<label>Password here: 
+						<input type="password" name="password_input">
+					</label>
+					<br />
+					
+					<fieldset>
+						<legend>Choose a Candy</legend>
+						<label>Snickers 
+							<input type="radio" name="candy" value="snickers">
+						</label>
+						<br />
+						
+						<label>Skittles
+								<input type="radio" name="candy" value="skittles">
+						</label>
+						<br />
+
+						<label>Mentos
+								<input type="radio" name="candy" value="mentos">
+						</label>
+					</fieldset>
+					<input type="submit" value="Submit Form" />
+				</fieldset>
+			</form>
+			<form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+				<fieldset>
+					<legend>POST form</legend>
+					<label>Text here: 
+						<input type="text" name="text_input">
+					</label>
+					<br />
+					<label>Number here: 
+						<input type="number" name="number_input">
+					</label>
+					<br />
+					<label>Password here: 
+						<input type="password" name="password_input">
+					</label>
+					<br />
+					
+					<fieldset>
+						<legend>Choose a Candy</legend>
+						<label>Snickers 
+							<input type="radio" name="candy" value="snickers">
+						</label>
+						<br />
+						
+						<label>Skittles
+								<input type="radio" name="candy" value="skittles">
+						</label>
+						<br />
+
+						<label>Mentos
+								<input type="radio" name="candy" value="mentos">
+						</label>
+					</fieldset>
+					<input type="submit" value="Submit Form" />
+				</fieldset>
+			</form>
+		</section>
 	</body>
 </html>
