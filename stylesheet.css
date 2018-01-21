@@ -1,9 +1,22 @@
+
+
+table {
+    border: 1px solid black;
+ }
+
+th, td {
+    border: 1px solid black;
+    padding-left: 1em;
+    padding-right: 1em;
+ }
+
 thead th {
-    font: bold;
+    font-weight: bold;
 }
 
 tbody th {
-    font: italic;
+    font-style: italic;
+    font-weight: normal;
 }
 
 
@@ -21,4 +34,8 @@ tbody th {
     margin-left: 12.5%;
     text-align: center;
     vertical-align: middle;
+}
+
+form {
+    margin-top: 20px;
 }
